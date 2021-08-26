@@ -1,0 +1,12 @@
+<div class="container_pokedex">
+<h1>
+{{"Pokedex " + pokedex?.name}}
+</h1>
+
+<mat-card *ngFor="let item of pokedex?.pokemon_entries">
+{{item?.pokemon_species?.name}}
+<div>
+<img class="pokemon-image" [src]="getPokemonImage(item?.entry_number)">
+</div>
+</mat-card>
+</div>

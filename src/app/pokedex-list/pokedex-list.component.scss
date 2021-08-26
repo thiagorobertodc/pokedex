@@ -1,0 +1,20 @@
+.container_pokedex {
+    margin: 2% 2% 2% 2%;
+}
+
+.flex-card {
+
+}
+
+mat-card {
+display: inline-flex;
+flex-wrap: wrap;
+gap: 16px;
+width: 15%;
+height: 250px;
+margin: 8px;
+}
+
+.pokemon-image {
+width: 150px;
+}
